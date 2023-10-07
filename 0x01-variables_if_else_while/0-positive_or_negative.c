@@ -3,7 +3,8 @@
 #include <stdio.h>
 /*
  * main - entry point
- * description - function prints a random number and checks if it is positive, negative or zero
+ * description - function prints a random number and checks
+ * if it is positive, negative or zero
  *
  *
  * Return (0) if successful
