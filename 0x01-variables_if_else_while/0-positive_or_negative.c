@@ -2,11 +2,11 @@
 #include <time.h>
 /* more headers goes there */
 /*
- * main- prints a random number and states
+ * main- This function prints a random number and checks
  * if it is positive, negative or zero
  *
  *
- * Return always (0)
+ * Return (0) if successful
  *
  */
 int main(void)
@@ -23,7 +23,6 @@ else if (n < 0)
 printf("%d is negative\n ", n);
 }
 else
-(n == 0)
 {
 printf("%d is zero\n ", n);
 }
