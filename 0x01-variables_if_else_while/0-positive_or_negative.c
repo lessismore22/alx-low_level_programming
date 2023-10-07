@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 /*
- * main- This function prints a random number and checks
+ * main - entry point
+ * This function prints a random number and checks
  * if it is positive, negative or zero
  *
  *
