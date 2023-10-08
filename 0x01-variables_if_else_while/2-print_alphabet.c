@@ -12,7 +12,6 @@ char letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
-		putchar(' ');
 	}
 	return (0);
 }
