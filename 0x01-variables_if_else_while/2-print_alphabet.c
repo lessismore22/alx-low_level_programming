@@ -1,3 +1,4 @@
+/* This is a new file, file 2 */
 #include <stdio.h>
 /*
  * main - this prints the letters of the alphabet from A-Z
@@ -11,7 +12,7 @@ char letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
-		putchar('\n');
+		putchar(' ');
 	}
-	return(0);
+	return (0);
 }
