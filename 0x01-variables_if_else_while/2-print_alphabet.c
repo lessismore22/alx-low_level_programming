@@ -3,14 +3,15 @@
  * main - this prints the letters of the alphabet from A-Z
  * in lower case
  *
- *
+ * Return (0) if succesful
 */
 int main(void)
 {
-char letters;
-	for (letters = a; letter <= z; letter++)
+char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	putchar(letter);
-	putchar('\n');
+		putchar(letter);
+		putchar('\n');
 	}
+	return(0);
 }
