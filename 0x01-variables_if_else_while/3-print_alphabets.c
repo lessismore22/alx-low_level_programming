@@ -13,13 +13,15 @@ int main(void)
 {
 	char letter1;
 	char letter2;
-	int i;
-	int j;
-	for (letter1 = 'a'; letter1 <= 'z'; i++);
-	for (letter2 = 'A'; letter2 <= 'Z'; j++);
-{
-			letter1=letter2;
-			i++;	
-}
+for (letter1 = 'a'; letter1 <= 'z'; letter1++)
+	{
+		putchar(letter1);
+	}
+	for (letter2 = 'A'; letter2 <= 'Z'; letter2++)
+	{
+		putchar(letter2);
+	}
+	putchar('\n');
+
 	return (0);
 }
