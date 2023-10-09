@@ -4,7 +4,7 @@
  * main - This Function prints the letters of the alphabet from A-Z
  * in lower case
  *
- * Return :0 if succesful
+ * Return:0 Always succesful
 */
 int main(void)
 {
