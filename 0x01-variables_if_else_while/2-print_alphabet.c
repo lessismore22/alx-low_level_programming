@@ -1,7 +1,7 @@
 /* This is a new file, file 2 */
 #include <stdio.h>
 /**
- * main - this prints the letters of the alphabet from A-Z
+ * main - this function prints the letters of the alphabet from A-Z
  * in lower case
  *
  * Return :0 if succesful
@@ -14,5 +14,6 @@ int main(void)
 	{
 		putchar(letter);
 	}
+	putchar('\n');
 	return (0);
 }
