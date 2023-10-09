@@ -11,16 +11,21 @@
 */
 int main(void)
 {
-	char letter1;
-	char letter2;
-for (letter1 = 'a'; letter1 <= 'z'; letter1++)
+	char letter1 [26];
+	char letter2[26];
+	int i;
+	int j;
+for (letter1 = 'a'; letter1 <= 'z'; i++)
 	{
 		putchar(letter1);
 	}
-	for (letter2 = 'A'; letter2 <= 'Z'; letter2++)
+	for (letter2 = 'A'; letter2 <= 'Z'; j++)
 	{
 		putchar(letter2);
 	}
+	
+	letter1[i]=letter[2];
+	i++;
 	putchar('\n');
 
 	return (0);
