@@ -3,14 +3,14 @@
  * main- This function prints the lower case alphabet
  * in reverse
  *
- * Return (0) if succesful
+ * Return:0 if succesful
  *
  */
 int main(void)
 {
 	char letter;
 
-	for (letter = 'z'; letter >= 'a'; letter++)
+	for (letter = 'z'; letter >= 'a'; letter--)
 	{
 		putchar(letter);
 	}
