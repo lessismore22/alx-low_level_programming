@@ -1,13 +1,10 @@
-/**
- * File: 3-print_alphabets.c
- * Author Charles
- */
+/* File: 3-print_alphabets.c */
 #include <stdio.h>
 /**
- * main: This Function prints alphabets in lower and
+ * main- This Function prints alphabets in lower and
  * uppercase followed by a new line.
  *
- * Return: 0 always succesful
+ * Return:0 Always succesful
 */
 int main(void)
 {
