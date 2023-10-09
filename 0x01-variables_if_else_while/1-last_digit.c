@@ -2,19 +2,20 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/*
- *
- *main - prints the last digit of a random number and states
+/**
+ *main - This function prints the last digit of a random number and states
  *if it's within the range of 0 and 6
  *
- *Return always 0
+ *Return: 0 always succesful
  *
 */
 int main(void)
 {
-int n;
+	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n % 10 > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
