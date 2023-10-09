@@ -1,21 +1,20 @@
-/*
- * File 3
- * Author: me
-*/
+/**
+ * File: 3-print_alphabets.c
+ * Author Charles
+ */
 #include <stdio.h>
-/*
- * Main: This functions prints alphabets in lower and
+/**
+ * main: This Function prints alphabets in lower and
  * uppercase followed by a new line.
  *
- * Returns (0) if succesful
+ * Return: 0 always succesful
 */
 int main(void)
 {
-	char letter1 [26];
-	char letter2[26];
-	int i;
-	int j;
-for (letter1 = 'a'; letter1 <= 'z'; i++)
+	char letter1;
+	char letter2;
+
+	for (letter1 = 'a'; letter1 <= 'z'; i++)
 	{
 		putchar(letter1);
 	}
@@ -23,9 +22,6 @@ for (letter1 = 'a'; letter1 <= 'z'; i++)
 	{
 		putchar(letter2);
 	}
-	
-	letter1[i]=letter[2];
-	i++;
 	putchar('\n');
 
 	return (0);
