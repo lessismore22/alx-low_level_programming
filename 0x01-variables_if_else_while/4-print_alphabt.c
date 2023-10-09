@@ -3,6 +3,7 @@
  * main- this function prints the alphabets excluding
  * the letters 'c' and 'e'
  *
+ * Return:0 Always success
  */
 int main(void)
 {
@@ -10,9 +11,9 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (s != 'c' && s != 'e')
+		if (letter != 'e' && letter != 'q')
 		{
-			putchar(s);
+			putchar(letter);
 		}
 
 
