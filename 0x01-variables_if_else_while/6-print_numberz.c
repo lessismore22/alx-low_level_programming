@@ -3,16 +3,16 @@
  * main- this prints all single digit numbers in base 10
  * starting from 0
  *
- * Returns (0) if succesful
+ * Return:0 if succesful
  */
 
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i < 10; i++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(i);
+		putchar(n);
 	}
 		putchar('\n');
 
