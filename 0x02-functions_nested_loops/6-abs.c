@@ -10,17 +10,17 @@ int _abs(int x)
 
 	if (x > 0)
 	{
-		_putchar(x);
+		_putchar("%d\n", x);
 	}
 
 	else if (x < 0)
 	{
-		_putchar(x);
+		_putchar("%d\n", x);
 	}
 
 	else
 	{
-		_putchar(0);
+		printf("%d\n", x);
 	}
 
 	return (0);
