@@ -6,9 +6,8 @@
  */
 int _islower(int c)
 {
-	char c;
 
-		if (letter >= 97 && letter <= 122)
+		if (c >= 'a' && c <= 'z')
 		{
 			return (1);
 		}
