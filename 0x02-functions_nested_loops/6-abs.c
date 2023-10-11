@@ -2,7 +2,7 @@
 /**
  * _abs - this function prints the absolute value of a digit
  * @x: character type
- * Return: 0 if succesful
+ * Return: the absolute value of x
  *
  */
 int _abs(int x)
@@ -19,7 +19,6 @@ int _abs(int x)
 
 	else
 	{
-
-
 		return (0);
+	}
 }
