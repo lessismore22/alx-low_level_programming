@@ -13,9 +13,10 @@ int print_last_digit(int x)
 	{
 		return (n);
 	}
-	else if (n < o)
+	else if (n < 0)
 	{
 		return (-n);
+	}	
 
 	else
 	{
