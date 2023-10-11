@@ -9,8 +9,6 @@
  */
 int print_sign(int n)
 {
-	char c;
-	int i;
 
 	if (n > 0)
 	{
