@@ -7,21 +7,19 @@
  */
 int _abs(int x)
 {
-
 	if (x > 0)
 	{
-		printf("%d\n", x);
+		return (x);
 	}
 
 	else if (x < 0)
 	{
-		printf("%d\n", x);
+		return (x);
 	}
 
 	else
 	{
-		printf("%d\n", x);
-	}
 
-	return (0);
+
+		return (0);
 }
