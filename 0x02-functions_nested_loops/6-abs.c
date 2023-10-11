@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * _abs - this function prints the absolute value of a digit
- * @int: character type
+ * @x: character type
  * Return: 0 if succesful
  *
  */
-int _abs(int)
+int _abs(int x)
 {
 	int n;
 
