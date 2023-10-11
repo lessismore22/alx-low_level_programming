@@ -10,12 +10,12 @@ int _abs(int x)
 
 	if (x > 0)
 	{
-		_putchar("%d\n", x);
+		printf("%d\n", x);
 	}
 
 	else if (x < 0)
 	{
-		_putchar("%d\n", x);
+		printf("%d\n", x);
 	}
 
 	else
