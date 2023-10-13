@@ -5,6 +5,7 @@
  * 0 to 9, followed by a new line
  * Return: 0 if succesful
  */
+
 void print_numbers(void)
 {
 	char num;
@@ -13,8 +14,6 @@ void print_numbers(void)
 	{
 		_putchar(num);
 	}
-	
 	_putchar('\n');
 
 }
-
