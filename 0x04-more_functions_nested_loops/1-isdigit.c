@@ -6,7 +6,7 @@
  * (0 through 9)
  * @c: integer being checked
  *
- * Returns: 1 if a digit. return 0 otherwise
+ * Return:1 if a digit. return 0 otherwise
  */
 
 int _isdigit(int c)
