@@ -3,13 +3,7 @@
 
 #include <stdio.h>
 
-/**
- * positive_or_negative - tests function if it is positive
- * or negative.
- */
-
 void positive_or_negative(int i)
+int largest_number(int a, int b, int c)	
 
 #endif /*MAIN_H */
-
-
