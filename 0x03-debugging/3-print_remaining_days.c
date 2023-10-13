@@ -28,6 +28,7 @@ void print_remaining_days(int month, int day, int year)
 		{
 			
 			printf("This is a leap year: %02d/%02d/%04d\n", month, day - 31, year);
+			printf("Remaining days: %d\n", 366 - day);
 		}
 		else
 		{
