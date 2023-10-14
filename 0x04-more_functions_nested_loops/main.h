@@ -1,7 +1,7 @@
 #ifndef MAIN_Hint _isupper
-#define MAIN_H
+#define 
 
-(int c);
+int _putchar(char c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
