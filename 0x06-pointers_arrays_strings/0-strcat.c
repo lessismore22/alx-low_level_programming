@@ -3,10 +3,10 @@
 /**
  * _strcat - this function concatenates two strings
  *
- * @dest: string character that will have another joined to it
+ * @dest: string character that will have another joined to itself
  * @src: string character that will be joined with the dest
  *
- * return: dest
+ * Return:dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,20 +14,20 @@ char *_strcat(char *dest, char *src)
 	int i;
 	int j;
 
+	i = 0;
+
 	while (dest[i] != '\0')
 	{
-		++dest;
 		i++;
 	}
-	while (src[j] != '\0')
+
+	for (j = 0; src[j] != '\0'; j++)
 	{
-		*dest = *src;
-		dest++;
-		src++;
-		j++;
+		dest[i] = src[j];
 	}
 
 	dest[i] = '\0';
 
 	return(dest);
-}
+
+}	
