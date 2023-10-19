@@ -20,14 +20,17 @@ int _strcmp(char *s1, char *s2)
 		{
 			j = s1[i] - s2[i];
 
+			break;
 		}
 
+		if (s1[i] != s2[i])
 
 		{
-			 j = s1[i] - s2[i];
+			j = s2[i] - s1[i];
 
+			break;
 		}
-	}
-	return (j);
-	
-}	
+
+		j = 0;
+	}	return (j);
+}
