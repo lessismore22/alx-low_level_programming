@@ -11,20 +11,18 @@
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 		int prd;
-                int j = atoi(argv[1]);
-                int k = atoi(argv[2]);
+                int j;
+                int k;
 
 	if (argc != 3)
 	{
-
+		printf("Error\n");
+		return (1);
+	}
+		j = atoi(argv[1]);
+                k = atoi(argv[2]);
 		prd = j * k;
 
 		printf("%d\n", prd);
-	return (0);
-	}
-	else
-	{
-		printf("error\n");
-	return (1);
-	}
+		return (0);
 }
