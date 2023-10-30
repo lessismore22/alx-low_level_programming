@@ -32,7 +32,7 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 
-	*(s + 1) = '\0';
+	*(s + i) = '\0';
 
 	return (s);
 }
