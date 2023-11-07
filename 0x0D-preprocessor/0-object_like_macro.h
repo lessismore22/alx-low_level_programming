@@ -1,2 +1,2 @@
-#define SIZE 1024;
-#undef SIZE;
+#define SIZE_1024
+#undef SIZE
