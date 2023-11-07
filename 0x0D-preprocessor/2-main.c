@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("%s\n", _FILE_NAME_H_);	
+	printf("%s\n", _FILE_);	
 
 }
 #endif
