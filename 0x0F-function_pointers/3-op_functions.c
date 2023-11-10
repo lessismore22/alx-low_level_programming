@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * op_add - this function adds two integers
@@ -39,9 +39,9 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
-	if (b == 0)
+	if (a <= 0 || b <= 0)
 	{
-		return ("Error\n");
+		printf ("Error\n");
 		exit(100);
 	}
 
