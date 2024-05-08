@@ -5,6 +5,7 @@
  * of integers using binary search.
  * @array: A pointer to the first element of the array to search.
  * @value: the value to search for.
+ * @size: number of elements in array
  *
  * Return: If the value is not present or the array is NULL, -1.
  * else, the index where the value is located.
